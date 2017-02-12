@@ -1,0 +1,105 @@
+{
+	"version" : "1.0",
+	"author" : "Abys, cech12",
+	
+	"name" :  {
+		"en" : "Command F9",
+		"de" : "Kommando F9"
+	},
+	"description" : {
+		"en" : "This Mod change the command F9 (drop all items)",
+		"de" : "Diese Mod verändert das F9 (alles fallen lassen)"
+	},
+	
+	"links" : {
+		"download" : "https://github.com/DigglesMods/CommandF9/releases",
+		"wiki" : "https://github.com/DigglesMods/CommandF9/wiki"
+	},
+	
+	"settings" : [
+		{
+			"id" : "TOOLS",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Tools",
+				"de" : "Werkzeuge"
+			},
+			"description" : {
+				"en" : "Do not drop tools.",
+				"de" : "Keine Werkzeuge fallen lassen."
+			}
+		},
+		{
+			"id" : "WEAPONS",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Weapons",
+				"de" : "Waffen"
+			},
+			"description" : {
+				"en" : "Do not drop weapons and shields.",
+				"de" : "Keine Waffen oder Schilde fallen lassen."
+			}
+		},
+		{
+			"id" : "MOVEMENT",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Movement",
+				"de" : "Bewegung"
+			},
+			"description" : {
+				"en" : "Do not drop Reithamster and Hoverboard.",
+				"de" : "Keine Reithamster und Hoverboards fallen lassen."
+			}
+		},
+		{
+			"id" : "TRANSPORT",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Transport",
+				"de" : "Transport"
+			},
+			"description" : {
+				"en" : "Do not drop (Grosse-)Holzkiepe and Schubkarren.",
+				"de" : "Keine (Grossen-)Holzkiepen und Schubkarren fallen lassen."
+			}
+		},
+		{
+			"id" : "MULTIPLE_ITEMS",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Multiple items",
+				"de" : "Mehrere Items"
+			},
+			"description" : {
+				"en" : "Drop all items of chosen types (Tools, Weapons, Movement, Transport) except one.",
+				"de" : "Alle bis auf ein Item der gewählten Typen (Werkzeuge, Waffen, Bewegung, Transport) fallen lassen."
+			}
+		},
+		{
+			"id" : "LOWER_ITEMS",
+			"type" : "bool",
+			"value" : false,
+			"default" : true,
+			"name" :  {
+				"en" : "Lower items",
+				"de" : "Niedrige Items"
+			},
+			"description" : {
+				"en" : "Drop lower or unusable items of chosen types (Weapons, Movement, Transport).",
+				"de" : "nicht nutzbare oder niedrige Items der gewählten Typen (Waffen, Bewegung, Transport) fallen lassen."
+			}
+		}
+	]
+}
