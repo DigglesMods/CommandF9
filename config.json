@@ -1,4 +1,4 @@
-{
+Ôªø{
 	"version" : "1.0",
 	"author" : "Abys, cech12",
 	
@@ -8,7 +8,7 @@
 	},
 	"description" : {
 		"en" : "This Mod change the command F9 (drop all items)",
-		"de" : "Diese Mod ver‰ndert das F9 (alles fallen lassen)"
+		"de" : "Diese Mod ver√§ndert das F9 (alles fallen lassen)"
 	},
 	
 	"links" : {
@@ -84,7 +84,7 @@
 			},
 			"description" : {
 				"en" : "Drop all items of chosen types (Tools, Weapons, Movement, Transport) except one.",
-				"de" : "Alle bis auf ein Item der gew‰hlten Typen (Werkzeuge, Waffen, Bewegung, Transport) fallen lassen."
+				"de" : "Alle bis auf ein Item der gew√§hlten Typen (Werkzeuge, Waffen, Bewegung, Transport) fallen lassen."
 			}
 		},
 		{
@@ -98,7 +98,7 @@
 			},
 			"description" : {
 				"en" : "Drop lower or unusable items of chosen types (Weapons, Movement, Transport).",
-				"de" : "nicht nutzbare oder niedrige Items der gew‰hlten Typen (Waffen, Bewegung, Transport) fallen lassen."
+				"de" : "nicht nutzbare oder niedrige Items der gew√§hlten Typen (Waffen, Bewegung, Transport) fallen lassen."
 			}
 		}
 	]
