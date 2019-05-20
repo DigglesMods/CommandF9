@@ -1,5 +1,5 @@
 ﻿{
-	"version" : "1.0",
+	"version" : "1.1",
 	"author" : "Abys, cech12",
 	
 	"name" :  {
@@ -55,7 +55,7 @@
 				"de" : "Bewegung"
 			},
 			"description" : {
-				"en" : "Do not drop Reithamster and Hoverboard.",
+				"en" : "Do not drop Riding Hamster and Hoverboard.",
 				"de" : "Keine Reithamster und Hoverboards fallen lassen."
 			}
 		},
@@ -69,7 +69,7 @@
 				"de" : "Transport"
 			},
 			"description" : {
-				"en" : "Do not drop (Grosse-)Holzkiepe and Schubkarren.",
+				"en" : "Do not drop (Big) Pannier and Barrow.",
 				"de" : "Keine (Grossen-)Holzkiepen und Schubkarren fallen lassen."
 			}
 		},
