@@ -163,13 +163,20 @@ proc get_better_weapon {weaponRanking weap1 weap2} {
 }
 $end
 
+
+$if:!mod:BugFix
+
 $start
 $replace
 			set_posbottom $invitem [vector_fix $npos]
+			from_wall $item
 $with
 			if {[get_objclass $invitem] == "Schatzbuch"} {
 				call_method $invitem initiate [vector_fix $npos]
 			} else {
 				set_posbottom $invitem [vector_fix $npos]
 			}
+			from_wall $invitem
 $end
+
+$ifend
